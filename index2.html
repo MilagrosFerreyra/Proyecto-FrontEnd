@@ -2,69 +2,87 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <title>Proyecto Front-end</title>
+    <link rel="stylesheet" href="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\index2.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <script src="/lib/jquery-1.12.2.min.js"></script>
+    <script src="/lib/bootstrap.min.js"></script>
+    <title>Good Lucky Institute</title>
 
   </head>
   <body>
-    <header>
-      <nav class="Logo">
-        <img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Logo.png" width="200" height="200" alt="">
+    <div class="container-fluid">
+    <header class="row">
 
-          <ul class="links">
-            <li><a href="#link1">NOSOTROS</a></li>
-            <li><a href="#link2">NOVEDADES</a></li>
-            <li><a href="#link3">EJERCICIOS</a></li>
-            <li><a href="#link4">BLOG</a></li>
-          </ul>
-      </nav>
+            <div class="logo col-2">
+                <img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Logo.png" alt="">
+            </div>
+
+            <nav class="col-9 d-flex justify-content-end align-content-center align-items-center">
+                <div class="row d-flex justify-content-end pestañas" type="button">
+                    <div class="pestañas col-3">
+                      <a class="btn btn-success btn-md btn-block" href="#" role="button">Quines somos</a>
+                    </div>
+
+                    <div class="pestañas col-3 dropdown">
+                        <a class="btn btn-success btn-md btn-block dropdown-toggle" href="modalidad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modalidad de estudio</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Clases</a>
+                            <a class="dropdown-item" href="#">Niveles</a>
+                            <a class="dropdown-item" href="#">Dias y Horarios</a>
+                          </div>
+                      </div>
+
+                    <div class="pestañas col-3">
+                    <a class="btn btn-success btn-md btn-block" href="#" role="button">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+    </div>
     </header>
 
-    <main>
-          <div class="banner">
-              <img class="d-block w-100" src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Banner.jpg">
-          </div>
+    <main class="row">
 
-          <section>
-      		<article id="img1">
-      			<img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Nosotros.jpg">
-      			 <a id="link1"></a><h3>Nosotros</h3>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		</article>
+        <section class="foto_principal">
+            <img class="img-responsive" src="..." alt="responsive imagen">
+        </section>
 
-      		<article id="img2">
-      			<img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Nosotros.jpg">
-      			<a id="link2"></a><h3>Novedades</h3>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		</article>
+            <div class="row text-center">
+                <section class="sec1 col-md-6">
 
-      		<article id="img3">
-      			<img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Nosotros.jpg">
-      			<a id="link3"></a><h3>Ejercicios</h3>
-      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      		</article>
-          
+                    <img class="photo" src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\img1.jpg" alt="">
+
+                    <h4>Quines somos</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                    doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                    Ea consectetur suscipit commodi?
+                    </p>
+                </section>
+
+                <section class="sec2 col-md-6">
+                    <a href="modalidad"></a>
+                    <img class="photo" src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\img1.jpg" alt="">
+
+                    <h4>Modalidad de estudio</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                    doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                    Ea consectetur suscipit commodi?
+                </p>
+                </section>
+            </div>
+        </div>
     </main>
 
     <footer>
-
+        Contacto
     </footer>
-
   </body>
 </html>
