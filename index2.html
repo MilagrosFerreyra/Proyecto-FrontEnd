@@ -2,8 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\index2.css">
+
+    <link rel="stylesheet" href="./index2.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -21,7 +24,7 @@
     <header class="row">
 
             <div class="logo col-2">
-                <img src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\Logo.png" alt="">
+                <img src="./Imagenes/Logo.jpg" alt="">
             </div>
 
             <nav class="col-9 d-flex justify-content-end align-content-center align-items-center">
@@ -56,7 +59,7 @@
             <div class="row text-center">
                 <section class="sec1 col-md-6">
 
-                    <img class="photo" src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\img1.jpg" alt="">
+                    <img class="photo" src="./Imagenes/img1.jpg" alt="">
 
                     <h4>Quines somos</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -68,7 +71,7 @@
 
                 <section class="sec2 col-md-6">
                     <a href="modalidad"></a>
-                    <img class="photo" src="C:\Potrero Digital\PotreroDigital-Proyecto-FrontEnd\Proyecto-FrontEnd\Imagenes\img1.jpg" alt="">
+                    <img class="photo" src="./Imagenes/img1.jpg" alt="">
 
                     <h4>Modalidad de estudio</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -81,8 +84,57 @@
         </div>
     </main>
 
-    <footer>
+    <footer class="row">
+
+        <div class="footer_tit col-12 text-center display-4 text-primary">
         Contacto
+        </div>
+
+        <div class="footer_sec1 col-6">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+        </div>
+
+        <div class="footer col-6">
+
+            <div class="datos">
+                    +54 9 11 0000 0000
+                    <img class"logo_whatsapp" src="./Imagenes/logo_whatsapp.webp" alt="">
+            </div>
+
+            <div class="datos">
+                Leonardo da Vinci 0000 Gregorio de Laferrere, Provincia de Buenos Aires.
+
+            </div>
+
+            <div class="datos">
+                    goodluckinstitute@gmail.com
+            </div>
+
+            <div class="">
+                <form class="" action="index.html" method="post">
+
+                    <label for="name"></label>
+                    <input type="text" name="name" placeholder="Nombre">
+
+                    <label for="phone"></label>
+                    <input type="tel" name="phone" value="" placeholder="(Código de área) Número">
+
+                    <label for="mail"></label>
+                    <input type="email" name="mail" placeholder="Mail">
+
+                    <label for="msg"></label>
+                    <textarea id="msg" name="user_message" placeholder="Mensaje" maxlength="500" rows="6" cols="75"></textarea>
+
+                    <button>Enviar mensaje</button>
+
+                </form>
+            </div>
+
+
+        </div>
+
     </footer>
   </body>
 </html>

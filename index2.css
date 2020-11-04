@@ -53,5 +53,17 @@ p{
 footer{
     background-color: coral;
     width: 100%;
-    height: 30vh;
+    height: 60vh;
 }
+
+.logo_whatsapp{
+    width: 4px;
+    height: 5px;
+}
+
+}
+/*
+.footer_sec1{
+    margin-right: 2%;
+}
+*/
