@@ -1,16 +1,19 @@
 header{
     height: 20vh;
+    width: 100vw;
     position: relative;
+    background-color: #2ca880;
 }
 
 .logo{
-    width: 150%;
+    width:20%;
     height: 40vh;
 }
 
-.logo img{
-       width: 110%;
-       height: 51%;
+img{
+       width: 100%;
+       height: 49%;
+       margin: 1%;
 }
 
 a{
@@ -23,15 +26,12 @@ a{
 }
 
 main{
-    width: 100%;
-    height: 150vh;
+    width: 100vw;
+    height: 95vh;
+    background-color: #f2ffff;
 }
 
-.foto_principal{
-    background-color: salmon;
-    width: 100%;
-    height: 40%;
-}
+
 
 
 .photo{
@@ -46,24 +46,22 @@ h4{
 }
 
 p{
+    font-size: 25px;
     padding-top: 5%;
     margin: 15%;
 }
 
 footer{
-    background-color: coral;
-    width: 100%;
-    height: 60vh;
+    background-color: #2ca880;
+    width: 100vw;
+    height: 70vh;
 }
 
-.logo_whatsapp{
-    width: 4px;
-    height: 5px;
-}
-
-}
-/*
 .footer_sec1{
-    margin-right: 2%;
+    margin-left: 10p
+
 }
-*/
+
+.footer{
+
+}
