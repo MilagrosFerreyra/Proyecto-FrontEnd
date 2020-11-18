@@ -30,11 +30,11 @@
             <nav class="nav col-9 d-flex justify-content-end align-content-center align-items-center">
                 <div class="row d-flex justify-content-end pestañas" type="button">
                     <div class="pestañas col-3">
-                      <a class="btn btn-success btn-md btn-block bg-secondary" href="#" role="button">Quienes somos</a>
+                      <a class="btn btn-success btn-md btn-block bg-dark" href="#" role="button">Quienes somos</a>
                     </div>
 
                     <div class="pestañas col-3 dropdown">
-                        <a class="btn btn-success btn-md btn-block dropdown-toggle bg-secondary" href="modalidad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modalidad de estudio</a>
+                        <a class="btn btn-success btn-md btn-block dropdown-toggle bg-dark" href="modalidad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modalidad de estudio</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <a class="dropdown-item" href="#">Clases</a>
                             <a class="dropdown-item" href="#">Niveles</a>
@@ -43,7 +43,7 @@
                       </div>
 
                     <div class="pestañas col-3">
-                    <a class="btn btn-success btn-md btn-block bg-secondary" href="#" role="button">Contacto</a>
+                    <a class="btn btn-success btn-md btn-block bg-dark" href="#" role="button">Contacto</a>
                     </div>
                 </div>
             </nav>
@@ -54,7 +54,7 @@
             <div class="row text-center">
                 <section class="sec1 col-md-6">
 
-                    <img class="photo" src="./Imagenes/img1.jpg" alt="">
+                    <img class="photo zoom" src="./Imagenes/img3.jpg" alt="">
 
                     <h4>Quienes somos</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -65,15 +65,17 @@
                 </section>
 
                 <section class="sec2 col-md-6">
-                    <a href="modalidad"></a>
-                    <img class="photo" src="./Imagenes/img1.jpg" alt="">
+                  <h4 class="h4-1">Modalidad de estudio</h4>
+                  <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                  doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                  Ea consectetur suscipit commodi?
+                  </p>
 
-                    <h4>Modalidad de estudio</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
-                    doloribus maiores at dicta in debitis error voluptate modi sunt libero?
-                    Ea consectetur suscipit commodi?
-                </p>
+                    <a href="modalidad"></a>
+                    <img class="photo zoom" src="./Imagenes/img1.jpg" alt="">
+
+
                 </section>
             </div>
         </div>
@@ -83,10 +85,9 @@
 
         <div class="footer_tit col-12 text-center display-4">
         <h1>Contacto </h1>
-
         </div>
 
-        <div class="footer_sec1 col-6">
+        <div class="footer_sec1 col-6 text-center">
 
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             <br>
@@ -96,23 +97,24 @@
 
         <div class="footer col-6">
 
-                <form class="" action="index.html" method="post">
+    <form>
+           <div class="form-group">
+            <label for="exampleInputtexto">Nombre</label>
+            <input type="text" class="form-control" id="exampleInputtexto" placeholder="Nombre">
+          </div>
+          <div class="form-group">
+           <label for="exampleInputphone">Telefono</label>
+           <input type="phone" class="form-control" id="exampleInputphone" placeholder="Telefono">
+         </div>
+         <div class="form-group">
+           <label for="exampleInputEmail1">Email address</label>
+           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
-                    <label for="name"></label>
-                    <input type="text" name="name" placeholder="Nombre">
+        </div>
 
-                    <label for="phone"></label>
-                    <input type="tel" name="phone" value="" placeholder="(Código de área) Número">
+          <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 
-                    <label for="mail"></label>
-                    <input type="email" name="mail" placeholder="Mail">
-
-                    <label for="msg"></label>
-                    <textarea id="msg" name="user_message" placeholder="Mensaje" maxlength="500" rows="6" cols="75"></textarea>
-
-                    <button>Enviar mensaje</button>
-
-                </form>
                 <br>
                 <p>
                   goodluckinstitute@gmail.com <br>

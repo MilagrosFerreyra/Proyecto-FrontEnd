@@ -2,7 +2,8 @@ header{
     height: 20vh;
     width: 100vw;
     position: relative;
-    background-color: #2ca880;
+    background-color: #ff6b35;
+
 }
 
 .logo{
@@ -31,14 +32,30 @@ main{
     background-color: #f2ffff;
 }
 
+.parrafo1{
+ margin-bottom: 80px;
+}
 
-
+.h4-1{
+  margin-top: 80px;
+}
 
 .photo{
-    padding-top: 4%;
-    height: 50vh;
+    height: 50%;
+    width: 50%;
     border-radius: 50%;
+    border: black 4px solid;
 }
+.zoom{
+transition: width 2s, height 2s, transform 2s;
+ webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+ }
+
+.zoom:hover{
+ transform : scale(1.2);
+ webkit-transform : scale(1.2);
+ }
+
 
 h4{
     padding-top: 5%;
@@ -52,16 +69,8 @@ p{
 }
 
 footer{
-    background-color: #2ca880;
+    background-color: #ff6b35;
     width: 100vw;
     height: 70vh;
-}
-
-.footer_sec1{
-    margin-left: 10p
-
-}
-
-.footer{
-
+    margin: auto;
 }
