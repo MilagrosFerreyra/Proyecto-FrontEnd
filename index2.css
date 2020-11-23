@@ -1,61 +1,78 @@
 header{
-    height: 20vh;
-    width: 100vw;
-    position: relative;
-    background-color: #ff6b35;
+    height: 30vh;
+    width: 100%;
+    /*background: rgba(255,107,53,0.4);*/
+    position: fixed;
+    z-index: 100;
+    background-image:url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg);
+}
 
+.social_networks{
+
+    height: 8vh;
+    width: 100%;
+    background-color: rgba(100,100,100,0.7);
+}
+
+.img-networks{
+    width: 50px;
+    height: 50px;
 }
 
 .logo{
-    width:20%;
-    height: 40vh;
+
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
 }
+
+.logo_princ{
+    width: 60px;
+    height: 60px;
+}
+
+.naver{
+    height: 7vh;
+    width: 100%;
+    background-color: rgba(100,100,100,0.7);
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+}
+/*TENGO PROBLEMAS CON ESTE CORCHETE .. SI LO SACO SE MUEVE LA IMAGNE¿¿*/
 
 img{
-       width: 100%;
-       height: 49%;
-       margin: 1%;
-}
-
-a{
-    margin: auto;
-}
-
-.pestañas{
     width: 100%;
-    height: 20vh;
+    height: 49%;
+    margin: 1%;
 }
 
-main{
-    width: 100vw;
-    height: 95vh;
-    background-color: #f2ffff;
-}
-
-.parrafo1{
- margin-bottom: 80px;
-}
-
-.h4-1{
-  margin-top: 80px;
-}
-
-.photo{
-    height: 50%;
-    width: 50%;
-    border-radius: 50%;
-    border: black 4px solid;
-}
 .zoom{
-transition: width 2s, height 2s, transform 2s;
- webkit-transition: width 2s, height 2s, -webkit-transform 2s;
- }
+transition: width 2s, height 2s, transform 2s; webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+}
 
 .zoom:hover{
  transform : scale(1.2);
- webkit-transform : scale(1.2);
- }
+ webkit-transform : scale(1.1);
+}
 
+main{
+    width: 100%;
+    height: 280vh;
+    /*background-color: #f2ffff;*/
+    padding-top: 14%;
+    background-color: #FFA668;
+    margin: 0%;
+}
+
+.photo{
+    height: 60vh;
+    width: 60%;
+    border-radius: 60%;
+    border: blue 3px solid;
+}
 
 h4{
     padding-top: 5%;
@@ -69,8 +86,25 @@ p{
 }
 
 footer{
-    background-color: #ff6b35;
-    width: 100vw;
+    /*background-color: #ff6b35;*/
+    width: 100%;
     height: 70vh;
-    margin: auto;
+    background-image:url(https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials.jpg);
+}
+
+
+
+@media screen and (max-width: 758px){
+
+    main{
+        height: 360vh;
+        padding-top: 30vh;
+        background-color: #FFA668;
+    }
+
+
+    .zoom:hover{
+     transform : scale(1);
+     webkit-transform : scale(1);
+     }
 }

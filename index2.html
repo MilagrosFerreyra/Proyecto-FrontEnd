@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+
     <meta charset="utf-8">
 
-    <link rel="stylesheet" href="./index2.css">
-
+    <!--Meta tags requeridas, viewport para diseño responsive -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="./index2.css">
+
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -16,113 +22,164 @@
     <link rel="stylesheet" href="/lib/bootstrap.min.css">
     <script src="/lib/jquery-1.12.2.min.js"></script>
     <script src="/lib/bootstrap.min.js"></script>
+
+    <!--  link letra-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <!--nombre de pestaña-->
     <title>Good Luck Institute</title>
 
   </head>
+
   <body>
-    <div class="container-fluid">
-    <header class="row">
 
-            <div class="logo col-2">
-                <img src="./Imagenes/Logo.jpg" alt="">
-            </div>
+      <div class="container-fluid">
 
-            <nav class="nav col-9 d-flex justify-content-end align-content-center align-items-center">
-                <div class="row d-flex justify-content-end pestañas" type="button">
-                    <div class="pestañas col-3">
-                      <a class="btn btn-success btn-md btn-block bg-dark" href="#" role="button">Quienes somos</a>
-                    </div>
+          <header class="row" >
+               <!--links de redes-->
+              <div class="social_networks col-12 d-flex justify-content-end ">
 
-                    <div class="pestañas col-3 dropdown">
-                        <a class="btn btn-success btn-md btn-block dropdown-toggle bg-dark" href="modalidad" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Modalidad de estudio</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">Clases</a>
-                            <a class="dropdown-item" href="#">Niveles</a>
-                            <a class="dropdown-item" href="#">Dias y Horarios</a>
-                          </div>
+                <img class="img-networks" src="./Imagenes/facebook.png" alt="">
+                <img class="img-networks" src="./Imagenes/instagram.png" alt="">
+                <img class="img-networks" src="./Imagenes/youtube.png" alt="">
+
+              </div>
+
+              <div class="logo col-12 d-flex justify-content-center ">
+
+                  <img class="logo_princ d-inline-block aling-top " src="./Imagenes/logo.png" alt="">
+                  <!--clase d-inline-block aling-top para que el logo este alineado y pegado añ texto-->
+                  Good Luck
+
+              </div>
+
+
+              <nav class="navbar col-12 navbar-expand-lg navbar-light d-flex flex-row-reverse ">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item col-lg-4 d-inline-block">
+                      <a class="nav-link btn btn-success" href="#">Quienes somos <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item col-lg-4 d-inline-block">
+                      <a class="nav-link btn btn-success" href="#">Contacto</a>
+                    </li>
+                    <li class="nav-item dropdown col-lg-6 d-inline-block">
+                      <a class="nav-link dropdown-toggle btn btn-success" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Modalidad de estudio
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Clases</a>
+                        <a class="dropdown-item" href="#">Niveles</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item " href="#">Dias y Horarios</a>
                       </div>
+                    </li>
 
-                    <div class="pestañas col-3">
-                    <a class="btn btn-success btn-md btn-block bg-dark" href="#" role="button">Contacto</a>
-                    </div>
+
                 </div>
-            </nav>
-    </div>
-    </header>
+              </nav>
 
-    <main class="row">
-            <div class="row text-center">
-                <section class="sec1 col-md-6">
+      </header>
 
-                    <img class="photo zoom" src="./Imagenes/img3.jpg" alt="">
-
-                    <h4>Quienes somos</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
-                    doloribus maiores at dicta in debitis error voluptate modi sunt libero?
-                    Ea consectetur suscipit commodi?
-                    </p>
-                </section>
-
-                <section class="sec2 col-md-6">
-                  <h4 class="h4-1">Modalidad de estudio</h4>
-                  <p class="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
-                  doloribus maiores at dicta in debitis error voluptate modi sunt libero?
-                  Ea consectetur suscipit commodi?
-                  </p>
-
-                    <a href="modalidad"></a>
-                    <img class="photo zoom" src="./Imagenes/img1.jpg" alt="">
+     </div>
 
 
-                </section>
+      <main>
+
+        <img class="img-fluid" id="portada" src="Imagenes/banner.jpeg" alt="Portada">
+
+        <div class="nav col-12 d-flex justify-content-end align-content-center align-items-center">
+
+            <div class="row text-center col-md-12 p-3 ">
+                <div class="1 col-md-6">
+                <img class="photo zoom" src="./Imagenes/img1.jpg" alt="">
+                </div>
+
+                <div class="2 col-md-6">
+                <h4>Quienes somos</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                Ea consectetur suscipit commodi?
+                </div>
             </div>
+
+            <div class="row text-center col-md-12 ">
+
+                <div class="2 col-md-6">
+                <h4>Modalidad de estudio</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                Ea consectetur suscipit commodi?
+                </div>
+
+                <div class="1 col-md-6">
+                <img class="photo zoom" src="./Imagenes/img3.jpg" alt="">
+                </div>
+
+            </div>
+
         </div>
+
+
+
     </main>
 
-    <footer class="row col-12">
+    <footer>
 
-        <div class="footer_tit col-12 text-center display-4">
-        <h1>Contacto </h1>
-        </div>
+        <div class="nav col-12 d-flex justify-content-end align-content-center align-items-center">
+            <div class="footer_tit col-12 text-center display-4">
+                <h1>Contacto </h1>
+                </div>
 
-        <div class="footer_sec1 col-6 text-center">
+               <!--d-none d-md-block  hace que desaparesca maps cuando se achica la pantalla-->
+                <div class="footer_sec1 col-lg-6 d-none d-md-block text-center ">
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            <br>
-            <br>
-            Leonardo da Vinci 0000 Gregorio de Laferrere, Provincia de Buenos Aires.
-        </div>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <br>
+                    <br>
+                    Leonardo da Vinci 0000 Gregorio de Laferrere, Provincia de Buenos Aires.
+                </div>
 
-        <div class="footer col-6">
+                <div class="footer col-lg-6 col-md-12">
 
-    <form>
-           <div class="form-group">
-            <label for="exampleInputtexto">Nombre</label>
-            <input type="text" class="form-control" id="exampleInputtexto" placeholder="Nombre">
-          </div>
-          <div class="form-group">
-           <label for="exampleInputphone">Telefono</label>
-           <input type="phone" class="form-control" id="exampleInputphone" placeholder="Telefono">
-         </div>
-         <div class="form-group">
-           <label for="exampleInputEmail1">Email address</label>
-           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <form>
+                   <div class="form-group">
+                    <label for="exampleInputtexto">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputtexto" placeholder="Nombre">
+                  </div>
+                  <div class="form-group">
+                   <label for="exampleInputphone">Telefono</label>
+                   <input type="phone" class="form-control" id="exampleInputphone" placeholder="Telefono">
+                 </div>
+                 <div class="form-group">
+                   <label for="exampleInputEmail1">Email address</label>
+                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
 
-        </div>
+                </div>
 
-          <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
 
-                <br>
-                <p>
-                  goodluckinstitute@gmail.com <br>
-                  +54 9 11 0000 0000
-                </p>
+
+
+            </div>
+
 
         </div>
 
     </footer>
+
+
+      </div>
+
   </body>
 </html>
