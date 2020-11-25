@@ -2,6 +2,7 @@
 
 
 header.masthead {
+    height: 80vh;
     padding-top: 100px;
     padding-bottom: calc(10rem - 4.5rem);
     background: linear-gradient(to bottom, rgba(92, 77, 66, 0.2) 0%, rgba(92, 77, 66, 0.8) 100%), url("https://images8.alphacoders.com/837/837049.jpg");
@@ -56,7 +57,7 @@ header.masthead {
 
 main{
     width: 100%;
-    height: 280vh;   
+    height: 280vh;
 }
 
 .zoom{
@@ -66,29 +67,6 @@ transition: width 2s, height 2s, transform 2s; webkit-transition: width 2s, heig
 .zoom:hover{
  transform : scale(1.2);
  webkit-transform : scale(1.1);
-}
-
-#portada{
-    width: 100%;
-    height: 150vh;
-}
-
-#maps{
-    width: 600px;
-    float: left;
-    height: 325px;
-    border-radius: 0 7px 7px 0;
-    padding-top: 5%;
-    padding-left: 5%;
-    margin-left: 25px;
-}
-
-#form{
-    width: 600px;
-    float: right;
-    margin-top:15px;
-    padding-right: 2%;
-    margin-right: 60px;
 }
 
 footer{
@@ -126,7 +104,7 @@ ul{
 
   .text-sm-center {
     text-align: center;
-  } 
+  }
 }
 
 @media print {
@@ -348,11 +326,7 @@ p {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 20px 20px;
   }
-  
-  /*main{
-    height: 310vh;
-    background-color: #fff;
-}*/
+
 }
 
 @media (min-width: 1200px) {
@@ -373,5 +347,5 @@ p {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
- 
+
 }
