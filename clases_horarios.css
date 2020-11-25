@@ -78,7 +78,7 @@ main{
     width: 100%;
     height: 270vh;
     background-color: #f2ffff;
-    margin: 0%;
+    margin-bottom: 10%;
 }
 
 .photo{
@@ -112,7 +112,7 @@ p{
 }
 
 footer{
-  height: 10vh;
+  height: 20vh;
   width: 100%;
   background-color: #000000;
 }
@@ -137,27 +137,4 @@ footer{
 .h5{
   border: black 3px solid;
   margin-top: 5%;
-}
-
-@media screen and (max-width:992px){
-    main{
-        height: 280vh;
-    }
-}
-
-
-@media screen and (max-width: 768px){
-    main{
-        height: 210vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-    main{
-        height: 210vh;
-    }
-
-    footer{
-        height: 30vh;
-    }
 }

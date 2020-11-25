@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+
 }
   header.masthead {
       height: 80vh;
@@ -35,12 +36,10 @@
       color: green;
   }
   .navbar {
-      position: relative;
       display: flex;
       flex-wrap: wrap;
       align-items: center;
       justify-content: space-between;
-      padding: 5% 5%;
       padding-top: 10px;
     }
 
@@ -65,13 +64,14 @@ footer{
 
 main{
     width: 100%;
-    height: 180vh;
+    height: auto;
     margin: 0%;
+    margin-bottom: 3%;
 }
 
 .photo{
-    height: 40vh;
-    width: 40%;
+    height: auto;
+    width: 60%;
     border: 7px solid #e9ecef;
     border-radius: 100%;
 }
@@ -87,6 +87,7 @@ main{
     justify-content: center;
     align-items: center;
 }
+
 
 .zoom{
     transition: width 2s, height 2s, transform 2s; webkit-transition: width 2s, height 2s, -webkit-transform 2s;
@@ -111,28 +112,10 @@ p{
 footer{
     background-color: #000000;
     width: 100%;
-    height: 15vh;
+    height: auto;
 }
-
-@media screen and (max-width:992px){
-    main{
-        height: 280vh;
-    }
-}
-
-
-@media screen and (max-width: 768px){
-    main{
-        height: 210vh;
-    }
-}
-
-@media screen and (max-width: 576px){
-    main{
-        height: 210vh;
-    }
-
-    footer{
-        height: 30vh;
-    }
+.contenedor{
+    white:100%;
+    max-width: 1500px;
+    margin: 0 auto;
 }
