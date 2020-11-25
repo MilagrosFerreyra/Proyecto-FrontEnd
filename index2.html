@@ -26,7 +26,7 @@
     <!--  link letra-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
- 
+
     <link rel="shortcut icon" href="Imagenes/Logo.png" />
     <meta name="google" content="notranslate" />
     <!--nombre de pestaña-->
@@ -36,26 +36,26 @@
 
 
   <body>
-  <header class="masthead">
+  <header id="header" class="masthead">
     <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#">Good Lucky</a>
+        <a class="navbar-brand js-scroll-trigger" href="#header">Good Lucky</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto my-2 my-lg-0">
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Quienes somos</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#main-sec-1">Quienes somos</a></li>
             <li class="nav-item dropdown col-lg-6 d-inline-block">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Modalidad de estudio
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Clases</a>
-                <a class="dropdown-item" href="#">Niveles</a>
+                <a class="dropdown-item" href="./clases_horarios.html">Clases</a>
+                <a class="dropdown-item" href=" ./Niveles.html">Niveles</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item " href="#">Dias y Horarios</a>
+                <a class="dropdown-item " href="./clases_horarios.html #main-sec-2">Dias y Horarios</a>
               </div>
               </li>
-            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+            <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#main-sec-2">Contact</a></li>
           </ul>
         </div>
       </div>
@@ -74,90 +74,98 @@
   </header>
 
     <main>
-      <div class="nav col-12 d-flex justify-content-end align-content-center align-items-center">
-          <div class="row text-center col-md-12 p-3 ">
-            <div class="one col-md-6">
-            <img class="photo zoom" src="./Imagenes/img1.jpg" alt="">
-            </div>
+        <div id="main-sec-1" class="conteiner">
+            <div class="row text-center p-3 ">
+              <div class="col-lg-6 section-img">
+              <img class="photo zoom" src="./Imagenes/img1.jpg" alt="">
+              </div>
 
-            <div class="2 col-md-6">
-            <h4>Quienes somos</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
-              doloribus maiores at dicta in debitis error voluptate modi sunt libero?
-              Ea consectetur suscipit commodi?
-            </div>
-          </div>
-
-          <div class="texttwo row text-center col-md-12 ">
-              <div class="col-md-6">
-              <h4>Modalidad de estudio</h4>
+              <div class="col-lg-6">
+              <h4>Quienes somos</h4>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
-              doloribus maiores at dicta in debitis error voluptate modi sunt libero?
-              Ea consectetur suscipit commodi?
+                Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                Ea consectetur suscipit commodi?
               </div>
-              <div class="two col-md-6">
-              <img class="photo zoom" src="./Imagenes/img3.jpg" alt="">
+            </div>
+
+            <div class="row text-center">
+
+                <div class="col-lg-6">
+                <h4>Modalidad de estudio</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Suscipit illum reprehenderit tempore eum dignissimos! Laboriosam
+                doloribus maiores at dicta in debitis error voluptate modi sunt libero?
+                Ea consectetur suscipit commodi?
+                </div>
+
+                <div class="col-lg-6 section-img">
+                <img class="photo zoom" src="./Imagenes/img3.jpg" alt="">
+                </div>
+            </div>
+
+            <div id="main-sec-2" class="nav col-12 d-flex justify-content-end align-content-center align-items-center">
+              <div class="titulo col-12 text-center display-4">
+                <h4>Contacto</h4>
               </div>
-          </div>
-      </div>
 
-      <div class="nav col-12 d-flex justify-content-end align-content-center align-items-center">
-        <div class="titulo col-12 text-center display-4">
-          <h4>Contacto</h4>
+              <div class="maps col-lg-6 d-none d-md-block text-center ">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+
+              <div class="footer col-lg-6 col-md-12">
+                <form>
+                <div class="form-group">
+                    <label for="exampleInputtexto">Nombre</label>
+                    <input type="text" class="form-control" id="exampleInputtexto" placeholder="Nombre">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputphone">Numero</label>
+                    <input type="phone" class="form-control" id="exampleInputphone" placeholder="Telefono">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+                </div>
+                <div>
+                    <label for="exampleInputtexto">Mensaje</label>
+                    <br>
+                    <textarea name="textarea" rows="7" cols="50" class="form-control" placeholder="Mensaje" aria-describedby="emailHelp" id="exampleInputtexto"></textarea>
+                </div>
+                    <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+                </div>
+
+            </div>
+
         </div>
-
-        <div class="maps col-lg-6 d-none d-md-block text-center ">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.561284043195!2d-58.62028818022459!3d-34.73315889999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1604430390076!5m2!1ses-419!2sar" width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-
-        <div class="footer col-lg-6 col-md-12">
-          <form>
-          <div class="form-group">
-              <label for="exampleInputtexto">Nombre</label>
-              <input type="text" class="form-control" id="exampleInputtexto" placeholder="Nombre">
-          </div>
-          <div class="form-group">
-              <label for="exampleInputphone">Numero</label>
-              <input type="phone" class="form-control" id="exampleInputphone" placeholder="Telefono">
-          </div>
-          <div class="form-group">
-              <label for="exampleInputEmail1">E-mail</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
-          </div>
-          <div>
-              <label for="exampleInputtexto">Mensaje</label>
-              <br>
-              <textarea name="textarea" rows="7" cols="50" class="form-control" placeholder="Mensaje" aria-describedby="emailHelp" id="exampleInputtexto"></textarea>
-          </div>
-              <br>
-          <button type="submit" class="btn btn-primary">Enviar</button>
-          </form>
-          </div>
-      </div>
 
     </main>
 
     <footer>
-      <div class="conteiner">
-        <div class="row">
-          <div class="redes col-sm-4 d-flex justify-content-end justify-content-around align-items-center">
-          <h4>Av. Siempre viva 1234</h4>
-          <p>C.P: 1245 PBA</p>
-          </div>
+        <div class="conteiner footer">
 
-          <div class="redes col-sm-4 d-flex justify-content-center align-items-center">
-            <img src="Imagenes/Logo.png" alt="Logo_footer" width="100px" height="100px">
+          <div class="row">
+
+            <div class="redes col-sm-4 d-flex justify-content-end justify-content-around align-items-center">
+            <h4>Av. Siempre viva 1234</h4>
+            <p>C.P: 1245 PBA</p>
             </div>
 
-            <div class="redes col-sm-4 d-flex justify-content-start justify-content-around align-items-center">
-              <a href=""><img class="redes" src="Imagenes/facebook.png" alt="facebook" width="50px" height="50px"></a>
-              <a href=""><img class="redes" src="Imagenes/instagram.png" alt="instagram" width="50px" height="50px"></a>
-              <a href=""><img class="redes" src="Imagenes/youtube.png" alt="youtube" width="50px" height="50px"></a>
+            <div class="redes col-sm-4 d-flex justify-content-center align-items-center">
+              <a href="#header"><img src="Imagenes\logo.png" alt="Logo_footer" width="100px" height="100px"></a>
               </div>
+
+              <div class="redes col-sm-4 d-flex justify-content-start justify-content-around align-items-center">
+                <a Target="_blank" href="https://www.facebook.com/"><img class="redes" src="Imagenes/facebook.png" alt="facebook" width="50px" height="50px"></a>
+                <a Target="_blank" href="https://www.instagram.com/?hl=es-la"><img class="redes" src="Imagenes/instagram.png" alt="instagram" width="50px" height="50px"></a>
+                <a Target="_blank" href="https://www.youtube.com/?gl=AR&hl=es-419"><img class="redes" src="Imagenes/youtube.png" alt="youtube" width="50px" height="50px"></a>
+                </div>
+          </div>
+
         </div>
-      </div>
+
     </footer>
 
   </body>

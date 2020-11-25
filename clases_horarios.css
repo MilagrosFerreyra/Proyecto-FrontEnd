@@ -138,3 +138,26 @@ footer{
   border: black 3px solid;
   margin-top: 5%;
 }
+
+@media screen and (max-width:992px){
+    main{
+        height: 280vh;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    main{
+        height: 210vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    main{
+        height: 210vh;
+    }
+
+    footer{
+        height: 30vh;
+    }
+}

@@ -28,6 +28,7 @@ header.masthead {
     font-size: 0.9rem;
     padding: 0.75rem 10;
   }
+
   #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
     color:  green;
 }
@@ -327,9 +328,6 @@ p {
     padding: 0 20px 20px;
   }
 
-}
-
-@media (min-width: 1200px) {
   .timeline > li {
     min-height: 170px;
   }
@@ -348,4 +346,99 @@ p {
     padding: 0 100px 20px 20px;
   }
 
+}
+
+@media screen and (max-width:992px){
+    main{
+        height: 280vh;
+    }
+}
+
+@media screen and (max-width: 768px){
+    main{
+        height: 210vh;
+    }
+}
+
+@media screen and (max-width: 576px){
+    main{
+        height: 210vh;
+    }
+    footer{
+        height: 30vh;
+    }
+}
+
+
+/*
+@media screen and (max-width: 1400px){
+    main{
+        height: 3000vh;
+    }
+}
+
+/*laptop
+@media screen and (max-width: 1024px){
+    main{
+        height: 1000vh;
+    }
+    footer{
+        height: 60vh;
+    }
+}
+
+@media screen and (max-width:992px){
+    main{
+        height: 310vh;
+    }
+}
+
+/*tablet*
+@media screen and (max-width: 768px){
+    main{
+        height: 1040vh;
+    }
+    footer{
+        height: 60vh;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    main{
+        height: 250vh;
+    }
+}
+
+/*mobile l*
+@media screen and (max-width: 425px){
+    main{
+        height: 870vh
+    }
+
+    footer{
+        height: 120vh;
+    }
+
+}
+
+/*mobile M*
+
+@media screen and (max-width: 375px){
+    main{
+        height: 960vh;
+    }
+
+    footer{
+        height: 120vh;
+    }
+}
+/*mobile S*
+@media screen and (max-width: 320px){
+    main{
+        height: 1100vh;
+    }
+    footer{
+        height: 150vh;
+    }
 }
