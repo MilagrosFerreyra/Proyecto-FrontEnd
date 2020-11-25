@@ -59,7 +59,8 @@ header.masthead {
 main{
     width: 100%;
     height: auto;
-    margin-bottom: 2%;
+    padding: 3%;
+    margin: 0%;
 }
 
 .contacto{
