@@ -1,5 +1,7 @@
 
-
+*{
+  box-sizing: border-box;
+}
 
 header.masthead {
     height: 80vh;
@@ -13,6 +15,11 @@ header.masthead {
   }
   header.masthead h1 {
     font-size: 2.25rem;
+  }
+  #mainNav{
+    box-shadow: 0 0.5rem 1rem rgba(26, 160, 2, 0.10);
+    background-color: rgba(26, 160, 2, 0.5);
+    transition: background-color 0.2s ease;
   }
 
   #mainNav .navbar-brand {
